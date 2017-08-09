@@ -1,14 +1,13 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-    
+
     repositories {
         google()
         jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.0-alpha9'
-        
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -40,7 +39,13 @@ ext {
     junitVersion = "4.12"
 
     // network
-    retrofitVersion = "2.1.0"
+    retrofit2Version = "2.1.0"
+    rxjava2Version = "2.1.2"
+    rxandroid2Version = "2.0.1"
+    rxjava2AdapterVersion = "2.3.0"
+    retrofit2Gson = "2.3.0"
+    okhttp3LoggingVersion = "3.8.1"
+    gsonVersion = "2.8.1"
 
     // img loader
     glideVersion = "3.7.0"
@@ -51,7 +56,6 @@ ext {
     arouterAnnotationVersion = "1.0.3"
 
     easyRecyclerVersion = "4.4.0"
-
 
     // bugly
     buglyVersion = "2.6.5"

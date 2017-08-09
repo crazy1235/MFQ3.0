@@ -41,6 +41,14 @@ dependencies {
     compile "com.android.support:support-fragment:${rootProject.ext.supportLibVersion}"
     compile "com.android.support:support-v4:${rootProject.ext.supportLibVersion}"
 
+    // network
+    compile "com.squareup.retrofit2:retrofit:$rootProject.ext.retrofit2Version"
+    compile "io.reactivex.rxjava2:rxjava:$rootProject.ext.rxjava2Version"
+    compile "io.reactivex.rxjava2:rxandroid:$rootProject.ext.rxandroid2Version"
+    compile "com.squareup.retrofit2:adapter-rxjava2:$rootProject.ext.rxjava2AdapterVersion"
+    compile "com.squareup.retrofit2:converter-gson:$rootProject.ext.retrofit2Gson"
+    compile "com.squareup.okhttp3:logging-interceptor:$rootProject.ext.okhttp3LoggingVersion"
+    compile "com.google.code.gson:gson:$rootProject.ext.gsonVersion"
 
     // bugly
     compile "com.tencent.bugly:crashreport:${rootProject.ext.buglyVersion}"
